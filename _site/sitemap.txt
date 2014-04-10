@@ -8,4 +8,4 @@ http://blog.eejjqq.com/sitemap.txt
 http://blog.eejjqq.com/archive.html
 http://blog.eejjqq.com/rss.xml
 
-http://blog.eejjqq.com/helloworld/2014/04/01/helloworld
+http://blog.eejjqq.com/helloworld/2014/04/10/helloworld

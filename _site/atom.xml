@@ -4,7 +4,7 @@
  <title>Theme Erjiaqing</title>
  <link href="http://blog.eejjqq.com/" rel="self"/>
  <link href="http://blog.eejjqq.com"/>
- <updated>2014-04-01T13:11:23+08:00</updated>
+ <updated>2014-04-10T13:14:24+08:00</updated>
  <id>http://blog.eejjqq.com</id>
  <author>
    <name>Erjiaqing</name>
@@ -14,9 +14,9 @@
  
  <entry>
    <title>Helloworld</title>
-   <link href="http://blog.eejjqq.com/helloworld/2014/04/01/helloworld"/>
-   <updated>2014-04-01T00:00:00+08:00</updated>
-   <id>http://blog.eejjqq.com/helloworld/2014/04/01/helloworld</id>
+   <link href="http://blog.eejjqq.com/helloworld/2014/04/10/helloworld"/>
+   <updated>2014-04-10T00:00:00+08:00</updated>
+   <id>http://blog.eejjqq.com/helloworld/2014/04/10/helloworld</id>
    <content type="html">&lt;p&gt;Hey!This is the example post of this site,delete it and build your site!&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;cpp&quot;&gt;&lt;span class=&quot;cp&quot;&gt;#include &amp;lt;iostream&amp;gt;&lt;/span&gt;
