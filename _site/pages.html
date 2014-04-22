@@ -33,7 +33,7 @@
   -->
   </head>
 
-  <body>
+  <body id="body">
 
 
 <nav class="navigation-bar " id="nav">
@@ -213,16 +213,24 @@
       <footer>
         <p>
         <!--<p>&copy; 2014 Erjiaqing-->
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by-sa.svg"></a><br>
+除非特别声明，否则内容采用知识共享署名-相同方式共享 4.0 国际许可协议进行许可。<br/>
           Based on <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
           Using <a href="http://github.com/erjiaqing/erjiaqing.github.com" target="_blank">erjiaqing</a> theme
         </p>
       </footer>
     </div> <!-- /container -->
-
+    <div class="back-to-top">
+    <ul>
+    <li class="back-to-btn"><a id="back-to-top" href="#body"><i class="icon-arrow-up"></i> Top</a></li>
+    <li class="back-to-btn"><a id="back-to-comment" href="#comments"><i class="icon-comments"></i> Comments</a></li>
+    </ul>
+    </div>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="/assets/themes/erjiaqing/js/jquery.min.js"><\/script>')</script>
     <script src="/assets/themes/erjiaqing/js/furatto.min.js"></script>
     <script src="/assets/themes/erjiaqing/js/headroom.min.js"></script>
+    <script src="/assets/themes/erjiaqing/js/ejq.js"></script>
     <script>
 // 获取页面元素
 var myElement = document.querySelector("#nav");

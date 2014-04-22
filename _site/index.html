@@ -33,7 +33,7 @@
   -->
   </head>
 
-  <body>
+  <body id="body">
 
 
 <nav class="navigation-bar " id="nav">
@@ -128,21 +128,19 @@
   <div class="col-12">
     <h1 id="hello-everyone">Hello Everyone</h1>
 
-<p>Thank you for using the theme Erjiaqing the current version is 1.0.4-20140416</p>
+<p>Thank you for using the theme Erjiaqing the current version is <code>1.1.0-beta1</code></p>
 
 <h1 id="what-should-i-do-next">What should I do next?</h1>
 
 <ol>
   <li>Edit <code>_config.yml</code> and set the variables you want</li>
-  <li>Delete <code>/_posts/2014-04-16-helloworld.md</code> and start your blog</li>
+  <li>Delete <code>/_posts/2014-04-22-helloworld.md</code> and start your blog</li>
   <li>Edit <code>index.md</code> to set your own index page</li>
 </ol>
 
-<h1 id="whats-new-in-version-104">WHAT’s New in version 1.0.4</h1>
+<h1 id="whats-new-in-version-110-beta1">WHAT’s New in version 1.1.0-Beta1</h1>
 
-<p>[Fix]Fix an error</p>
-
-<p>[New]Better <a href="#">link</a> style</p>
+<p>[New]Back to top link</p>
 
 <h2 id="thanks-to-these-projects">Thanks to these projects</h2>
 
@@ -165,16 +163,24 @@
       <footer>
         <p>
         <!--<p>&copy; 2014 Erjiaqing-->
+        <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="http://mirrors.creativecommons.org/presskit/buttons/80x15/svg/by-sa.svg"></a><br>
+除非特别声明，否则内容采用知识共享署名-相同方式共享 4.0 国际许可协议进行许可。<br/>
           Based on <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
           Using <a href="http://github.com/erjiaqing/erjiaqing.github.com" target="_blank">erjiaqing</a> theme
         </p>
       </footer>
     </div> <!-- /container -->
-
+    <div class="back-to-top">
+    <ul>
+    <li class="back-to-btn"><a id="back-to-top" href="#body"><i class="icon-arrow-up"></i> Top</a></li>
+    <li class="back-to-btn"><a id="back-to-comment" href="#comments"><i class="icon-comments"></i> Comments</a></li>
+    </ul>
+    </div>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="/assets/themes/erjiaqing/js/jquery.min.js"><\/script>')</script>
     <script src="/assets/themes/erjiaqing/js/furatto.min.js"></script>
     <script src="/assets/themes/erjiaqing/js/headroom.min.js"></script>
+    <script src="/assets/themes/erjiaqing/js/ejq.js"></script>
     <script>
 // 获取页面元素
 var myElement = document.querySelector("#nav");
